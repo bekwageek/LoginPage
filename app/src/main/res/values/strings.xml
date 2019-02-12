@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Loginform</string>
+    <string name="pswrd">Password</string>
+    <string name="email">Email Address</string>
+    <string name="name">Name</string>
+    <string name="conpass">Confirm Password</string>
+    <string name="user">Username</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_chiamaka">ChiamakaActivity</string>
+</resources>

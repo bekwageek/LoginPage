@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/ic_dropbox"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/darkash"
+            android:background="@drawable/border"
+            android:text="@string/name"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:textColorHint="@color/darkash"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:textSize="15sp"
+            android:text="@string/email"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="300dp"
+            android:textSize="15sp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="@color/darkash"
+            android:background="@drawable/border"
+            android:text="@string/user"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:textColorHint="@color/darkash"
+            android:background="@drawable/border"
+            android:text="@string/pswrd"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:textColorHint="@color/darkash"
+            android:background="@drawable/border"
+            android:textSize="15sp"
+            android:text="@string/conpass"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="#FFF"
+        android:background="@color/blue"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Already a User?"/>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:background="#FFF"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/blue"/>
+    </LinearLayout>
+</LinearLayout>
